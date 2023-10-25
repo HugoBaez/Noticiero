@@ -1,0 +1,242 @@
+
+header{
+    padding: 0 4%;
+    position: fixed;
+    width: 100%;
+    transition: 0.5s;
+    z-index: 10;
+    background:  #1C252F;
+    text-align: center;
+}
+
+header .logo{
+    position: relative;
+    width: 80%;
+    transition: 0.5s;
+}
+
+header ul.navbar-nav{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+    margin: 10px 15px;
+}
+
+header ul li a{
+    position: relative;
+    font-family: helvetica;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+header ul li a:hover{
+    color: #1C252F;
+    background-color: #C5EBC3;
+}
+
+header.abajo .logo{
+    width: 50%;
+}
+
+header.abajo ul li{
+    margin: 10px 15px;
+}
+
+header.abajo .content {
+    flex-direction: row;
+}
+
+header.abajo .borde {
+    border-top: none;
+    justify-content: flex-end;
+}
+
+head.abajo .enlace {
+    text-align: start;
+}
+.enlace {
+    width: 80%;
+}
+.borde {
+    border-top: 1px solid gainsboro;
+    justify-content: center;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.espacio {
+    height: 200px;
+    background: #1C252F;
+}
+
+.carrusel
+{
+    background: #1C252F;
+    padding: 10px;
+}
+
+.carrusel-width {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.carousel-item{
+    height: 400px;
+}
+
+.carousel-item  img{
+    object-fit: cover;
+	filter: brightness(50%);
+	position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.c-titular {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.cuerpo {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.titulo {
+    margin: 10px;
+    padding: 2px;
+    font-style: italic;
+    border-bottom: 1px solid gray;
+}
+
+.cuerpo  img{
+    width: 100%;
+}
+
+
+.tarjeta{
+    padding: 10px;
+}
+
+.titular {
+    margin-bottom: 20px;
+}
+
+.autor {
+    color: gray;
+    font-style: italic;
+}
+
+.destacado {
+    padding: 10px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    color: #1C252F;
+    background: #C5EBC3;
+    border-bottom: 3px solid #C5EBC3;
+}
+
+.borde1 {
+    border-bottom: 3px solid #C5EBC3;
+}
+
+.foto {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.foto > img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.cont-dest {
+    background-color: rgb(236, 230, 230);
+}
+
+.starjeta{
+    padding: 5px;
+    background: gainsboro;
+    border: 1px solid rgb(213, 207, 207);
+    font-size: 9px;
+    font-weight: bold;
+}
+
+.starjeta a {
+    color:#1C252F;
+    text-decoration: none;
+}
+
+.starjeta a:hover{
+    color:#297925;
+}
+
+.contenido {
+    white-space: pre-line;
+    padding: 10px;
+    text-align: justify;
+}
+
+@media (max-width:992px) {    
+    header .logo{
+        width: 50%;
+    }
+
+    header.abajo .logo{
+        width: 50%;
+    }
+    
+    header ul li{
+        list-style: none;
+        margin: 10px 15px;
+    }
+    
+    header nav{
+        border: none;
+    }
+
+    .enlace {
+        text-align: start;
+    }
+
+    .borde {
+        border-top: none;
+        justify-content: flex-end;
+    }
+
+    .content {
+        flex-direction: row;
+    }
+
+    .espacio {
+        height: 85px;
+    }
+
+    .carousel-item{
+        height: 250px;
+        font-size: 70%;
+    }
+
+    .c-titular {
+        font-size: 20px;
+        font-weight: bold;
+    }
+}

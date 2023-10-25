@@ -1,0 +1,45 @@
+body{
+	background: #434b51;
+	color: #c5ebc3;
+}
+h2{
+	text-align: center;
+}
+h3{
+	font-size: 25px;
+}
+.principal{
+	background: rgba(28,36,47,255);
+	margin: 10px auto;
+	margin-top: 30px;
+	padding: 10px;
+	/*border: 1px solid #74947c;
+	box-shadow: 5px 5px 8px #74947c;*/
+	border-radius: 15px;
+	
+	display: block;
+}
+.boton{
+	margin-bottom: 20px;
+	
+}
+.campo{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.caja{
+	display: block;
+}
+.cabecera{
+    text-align: center;
+    width: 100%;
+    background: #1C252F;
+}
+.cabecera img{
+    width: 40%;
+}
+@media(max-width: 700px){
+    .cabecera img{
+        width: 80%;
+    }
+}
